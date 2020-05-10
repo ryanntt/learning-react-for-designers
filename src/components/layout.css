@@ -17,6 +17,7 @@ a{
   background: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.4)), url('../images/wallpaper.jpg');
   background-size: cover;
   background-position: center;
+  position: relative;
 }
 
 .HeroGroup {
@@ -59,6 +60,12 @@ a{
 .Hero a:hover {
   background: white;
   color: black;
+}
+
+.Hero svg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 @media (max-width: 640px) {
