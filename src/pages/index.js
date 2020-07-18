@@ -4,6 +4,7 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
+import Card from '../components/card'
 
 const IndexPage = () => (
   <Layout>
@@ -26,6 +27,35 @@ const IndexPage = () => (
             M0 25.9086C277 84.5821 433 65.736 720 25.9086C934.818 -3.9019 1214.06 -5.23669 1442 8.06597C2079 45.2421 2208 63.5007 2560 25.9088V171.91L0 171.91V25.9086Z"/>
           </path>
         </svg>
+      </div>
+    </div>
+    <div className='Cards'>
+      <h2>Travel stories, more to come</h2>
+      <div className='CardGroup'>
+        <Card
+          title='🇻🇳 Vietnam'
+          text='2 stories'
+          image={require('../images/wallpaper.jpg')}/>
+        <Card
+          title='🇸🇬 Singapore'
+          text='2 stories'
+          image={require('../images/wallpaper.jpg')}/>
+        <Card
+          title='🍣 Japan'
+          text='3 stories'
+          image={require('../images/wallpaper.jpg')}/>
+        <Card
+          title='🦘 Australia'
+          text='2 stories'
+          image={require('../images/wallpaper.jpg')}/>
+        <Card
+          title='🇮🇩 Indonesia'
+          text='1 story'
+          image={require('../images/wallpaper.jpg')}/>
+        <Card
+          title='💭 Thought'
+          text='2 stories'
+          image={require('../images/wallpaper.jpg')}/>
       </div>
     </div>
   </Layout>
